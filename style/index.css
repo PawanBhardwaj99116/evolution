@@ -1,0 +1,58 @@
+#navbar{
+    height: 50px;
+    width: 78%;
+    background-color: rgb(217, 21, 21);
+    color: white;
+    display: flex;
+    font-size: 25px;
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+    padding: 10px;
+  border-radius: 10px;
+}
+
+#chotediv{
+    
+    width: 250px;
+    height: 400px;
+    align-items: center;
+    display:  flex;
+    flex-direction: column;
+    padding: 20px;
+    margin:auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+#menu{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+
+button{
+    background-color: rgb(231, 82, 7);
+    color: rgb(12, 11, 11);
+    border-radius: 15px;
+     cursor: pointer;
+     height: 22px;
+     border:none;
+     width:200px;
+     height:30px;
+     
+    
+}
+button:hover{
+    background-color: rgb(113, 118, 113);
+    color: white;
+}
+*{
+    background-color: antiquewhite;
+}
